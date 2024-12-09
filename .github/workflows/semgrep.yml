@@ -21,4 +21,6 @@ jobs:
       image: returntocorp/semgrep:canary
     steps:
     - uses: actions/checkout@v4
-    - run: semgrep ci --allow-local-builds --verbose
+    - run: |
+        apk add openjdk21
+        semgrep ci --allow-local-builds --verbose
