@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	compile 'org.semgrep:PrivateMavenTest:1.0-SNAPSHOT'
+	implementation 'org.semgrep:PrivateMavenTest:1.0-SNAPSHOT'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
